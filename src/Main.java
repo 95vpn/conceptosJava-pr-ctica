@@ -5,5 +5,5 @@ void main() {
     // to see how IntelliJ IDEA suggests fixing it.
     Vehiculo vehiculo1 = new Vehiculo("ASD", "FDGFDG", "DFGDG", "hgjGH", 55.0);
 
-    System.out.println(vehiculo1);
+    System.out.println(vehiculo1.getTarifa());
 }
