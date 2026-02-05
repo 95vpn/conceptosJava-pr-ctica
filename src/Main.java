@@ -6,4 +6,5 @@ void main() {
     Vehiculo vehiculo1 = new Vehiculo("ASD", "FDGFDG", "DFGDG", "hgjGH", 55.0);
 
     System.out.println(vehiculo1.getTarifa());
+    System.out.println(vehiculo1.getAtributos());
 }

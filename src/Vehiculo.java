@@ -21,6 +21,8 @@ public class Vehiculo
         this.disponible = false;
     }
 
+
+
     public String getMatricula()
     {
         return this.matricula;
@@ -59,6 +61,17 @@ public class Vehiculo
     public void setDisponible(boolean disponible)
     {
         this.disponible = disponible;
+    }
+
+    public String getAtributos()
+    {
+        return "Matricula: " + getMatricula() +
+                " Marca: " + getMarca() +
+                " Modelo: " + getModelo() +
+                " Color: " + getColor() +
+                " Tarifa: " + getTarifa() +
+                " Disponible: " + getDisponible();
+
     }
 }
 
