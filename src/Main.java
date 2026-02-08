@@ -5,6 +5,8 @@ void main() {
     // to see how IntelliJ IDEA suggests fixing it.
     Vehiculo vehiculo1 = new Vehiculo("ASD", "FDGFDG", "DFGDG", "hgjGH", 55.0);
 
+    Turismo miTurismo = new Turismo("4060 TUR", "Skoda", "Fabia", "Blanco", 90.0, 2, false);
     System.out.println(vehiculo1.getTarifa());
     System.out.println(vehiculo1.getAtributos());
+    System.out.println(miTurismo.getAtributos());
 }
