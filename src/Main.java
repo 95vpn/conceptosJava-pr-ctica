@@ -9,8 +9,12 @@ void main() {
 
     Deportivo miDeportivo = new Deportivo("DGDF", "Ford", "Mistang", "Rojo", 150.0, 2000);
 
+    Vehiculo miVehiculo = new Vehiculo("4050 ABJ", "VW", "GTI", "Blanco", 100.0);
+    Furgoneta miFurgoneta = new Furgoneta("4080 FUR", "Fiat", "Ducato", "Azul", 80.0, 1200, 8);
 
     System.out.println(vehiculo1.getTarifa());
     System.out.println(vehiculo1.getAtributos());
     System.out.println(miTurismo.getAtributos());
+    System.out.println(miVehiculo.getAtributos());
+    System.out.println(miFurgoneta.getAtributos());
 }
